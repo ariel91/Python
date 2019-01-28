@@ -1,0 +1,5 @@
+cheeses = ['Cheddar', 'Edam', 'Gouda']
+numbers = [17, 123]
+empty = []
+print(cheeses, numbers, empty)
+print("Fin del programa, se imprimieron 3 listas al mismo tiempo.")

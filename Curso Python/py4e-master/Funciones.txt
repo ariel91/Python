@@ -1,0 +1,9 @@
+Funciones
+Se componen por un nombre(dentro un argumento o argumentos) y una secuencia de declaraciones. Luego solo se le llama por
+su nombre.
+
+def saludo(nombre):
+	print("hola ",nombre,"como estas?")
+	
+saludo("jose")
+saludo("ricardo")

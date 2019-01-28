@@ -1,0 +1,6 @@
+score = input ("Ingrese nota")
+ingreso = float (score)
+if ingreso >= 0.9:
+  print("A")
+
+  

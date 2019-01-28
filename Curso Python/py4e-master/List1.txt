@@ -1,0 +1,86 @@
+cheeses = ['Cheddar', 'Edam', 'Gouda']
+numbers = [17, 123]
+empty = []
+print(cheeses, numbers, empty)
+print("Fin del programa, se imprimieron 3 listas al mismo tiempo.")
+print("Codigo:\n")
+print("------------------------------------------")
+print("Como supervisar si existe una palabra en una lista")
+cheeses = ['Cheddar', 'Edam', 'Gouda']
+'Edam' in cheeses
+print ('Edam' in cheeses)
+print('Brie' in cheeses)
+for i in cheeses:
+    print(i)
+print("------------------------------------------")
+print("como mostrar una lista a traves de un ciclo for")
+for i in range(len(numbers)):
+    numbers[i] = numbers[i] * 2
+print(numbers)
+print("------------------------------------------")
+print("Demostracion de concatenacion de listas a traves del simbolo +")
+a = ["elemento1","Elemento2","Elemento3"]
+b = ["otralista1","otralista2","otralista3"]
+c = a + b 
+print(c)
+print("------------------------------------------")
+print("Si multiplicamos una lista por n, se repetira n veces")
+a = [1, 2, 3]
+print(a)
+print (a*3)
+print("------------------------------------------")
+t = ['a', 'b', 'c', 'd', 'e', 'f']
+print(t[:])
+print(t[:1])
+print(t[:2])
+print(t[:3])
+print(t[:4])
+print("------------------------------------------")
+print("trabajando la sustitucion en listas")
+t = ['a', 'b', 'c', 'd', 'e', 'f']
+t[1:3] = ['remplazo1', 'Remplazo2']
+print(t)
+print("------------------------------------------")
+a = [1,2,3,4,5]
+print("Los numeros de la lista", a)
+print ("El numero mas grande de la lista ", max(a))
+print ("El numero mas peque;o de la lista es ", min(a))
+print ("La cantidad de numeros en la lista", len(a))
+print("La suma de los numeros de la lista", sum(a))
+print("el promedio de la lista", sum(a)/len(a))
+print('PARA OBTENER EL PROMEDIO DE UNA LISTA BASTAN CON DOS LINEAS EN ESTE PROGRAMA')
+print("------------------------------------------")
+print("Para sacar un promedio con un programa normal se hicieron 10 lineas")
+total = 0
+con = 0
+while(True):
+	inp = input('Ingrese numero: ')
+	if (inp == 'break'): break
+	total = total + float(inp)
+	con = con + 1 
+	average = total/con
+	print("promedio: " , average)
+	print("Veces acumuladas",con)
+print("------------------------------------------")
+numlist = list()
+while (True):
+    inp = input('Enter a number: ')
+    if inp == 'done': break
+    value = float(inp)
+    numlist.append(value)
+
+average = sum(numlist) / len(numlist)
+print('Average:', average)
+print(numlist)
+
+print("------------------------------------------")
+
+
+print("------------------------------------------")
+
+
+print("****************EXPLICACION DEL CODIGO****************")
+doc = open("list1.txt")
+for line in doc:
+    line = line.rstrip()
+    print(line)
