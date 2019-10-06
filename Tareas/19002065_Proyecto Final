@@ -1,0 +1,9 @@
+Acontinuacion se proporcionaran los links para los modelos que se lograron realizar:
+
+1. Operaciones aritmeticas MLP
+https://github.com/ariel91/Python/blob/master/Tareas/Np%20y%20linalg-Tarea_2-Parte_1_19002065.ipynb
+
+2. Deteccion de Animales CNN
+https://github.com/ariel91/Python/blob/master/Tareas/19002065_cnn.ipynb
+
+Cabe resaltar, que los epochs o la cantidad de iteraciones por cuestiones de hardware se limitaron, sin embargo, pueden modificarlos.
