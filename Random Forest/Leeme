@@ -1,0 +1,14 @@
+1. Algoritmo Elegido: Random Forest
+2. Pasos:
+	2.1 Extracción de Datos
+	2.2 Generación de Matriz de Correlación para detectar las variables con mayor peso.
+	2.3 División de Set de Entrenamiento y Set de Pruebas (80% entrenamiento 20% pruebas)
+	2.4 Normalización de Datos (Escakado de variables)
+	2.5 Entrenamiento del Modelo
+	2.6 Comprobación del set de Pruebas 
+	2.7 Matriz de confusión
+	2.8 Aplicacion del algoritmo entrenado con información del archivo Base Prueba CSV 
+	2.9 Generación de Archivo de Probabilidades (Número entre 0 a 1).
+	2.10 Generación de Archivo de Clasificación (0 o 1).
+	
+	
